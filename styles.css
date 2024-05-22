@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+
+/* Your CSS Code here. */
+#green{
+	background-color:green;
+}
+#red{
+	background-color:red;
+}
+#blue{
+	background-color:blue;
+}
+.section{
+	display:flex;
+	flex:1 1 auto;
+	flex-wrap: wrap;
+}
+.box{
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+
+
+
+
