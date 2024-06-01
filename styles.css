@@ -1,27 +1,24 @@
 
 /* Your CSS Code here. */
-
+ 
 /* Your CSS Code here. */
-#green{
-	background-color:green;
-}
-#red{
-	background-color:red;
-}
-#blue{
-	background-color:blue;
-}
-.section{
-	display:flex;
-	flex:1 1 auto;
-	flex-wrap: wrap;
-}
-.box{
-	width:100px;
-	height:100px;
-	font-size:50px;
-}
-
-
-
-
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to the next row when necessary */
+    justify-content: space-between; /* Space between elements */
+  }
+   
+  .item {
+    width: calc(14.2857% - 10px); /* Calculate width for 7 items with spacing */
+    margin-right: 10px; /* Space between items */
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 10px; /* Space below items */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+   
+  .item:last-child {
+    margin-right: 0; /* Remove margin on the last item in the row */
+  }
